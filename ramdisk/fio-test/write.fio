@@ -1,0 +1,11 @@
+[global]
+name=fio-seq-reads
+filename=/tmp/ramdisk/zero
+rw=write
+bs=4K
+time_based
+runtime=60
+ioengine=libaio
+iodepth=16
+
+[file1]
